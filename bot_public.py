@@ -13,7 +13,7 @@ token = os.getenv("BOT_KEY")
 
 bot = lightbulb.BotApp(token=token,
                        intents=hikari.Intents.GUILD_MEMBERS | hikari.Intents.MESSAGE_CONTENT | hikari.Intents.GUILDS | hikari.Intents.ALL_MESSAGES,
-                       default_enabled_guilds=[1255986026669674616],
+                       default_enabled_guilds=[1327434607796293716],
                        prefix="!"
                        )
 
