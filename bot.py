@@ -14,7 +14,7 @@ token = os.getenv("BOT_KEY")
 
 bot = lightbulb.BotApp(token=token,
                        intents=hikari.Intents.ALL_UNPRIVILEGED | hikari.Intents.GUILD_MEMBERS | hikari.Intents.MESSAGE_CONTENT,
-                       default_enabled_guilds=[1255986026669674616], prefix="!")
+                       default_enabled_guilds=[1327434607796293716], prefix="!")
 
 bot.d.miru = miru.Client(bot, ignore_unknown_interactions=True)
 routes = web.RouteTableDef()
