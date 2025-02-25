@@ -3,3 +3,4 @@ hikari-lightbulb
 hikari-miru
 stripe
 bs4
+aiosmtplib
