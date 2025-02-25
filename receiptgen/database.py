@@ -351,7 +351,7 @@ if __name__ == '__main__':
     # gm = GuildMemberAPI(guild_id=1255986026669674616, member_id=712728123040596008)
     # print(gm.update_guild_member(remove_access=True))
     async def main():
-        db = GuildMemberAPI(guild_id="1269322998909898852", member_id="712728123040596008")
+        db = GuildMemberAPI(guild_id="1327434607796293716", member_id="1203015105483120716")
         print(await db.get_guild_member())
 
     asyncio.run(main())
