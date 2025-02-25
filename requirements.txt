@@ -1,6 +1,7 @@
 hikari
 hikari-lightbulb
 hikari-miru
+miru
 stripe
 bs4
 aiosmtplib
